@@ -1,6 +1,7 @@
+Graydon Leongkaye
+1. I would choose (1): Within a Github action that runs whenever code is pushed. (3) will only run the actions to tests once at the end. If there are errors that build up along the process of making the code then this approach could return a bunch of failed tests. This will be harder to try to go back and fix any of the bugs and errors that built up over the course of developing the code. (2) relies on the developer always remembering to run the tests locally. This could run into the issue of them forgetting to run the tests or not running them because of time constraints. So therefore (1) is right. Running the tests within a github action whenver the code is pushed avoids the downsides of (1) and (2) making the tests run consistently. It is also more efficient then (2) as the developer doesnt have to remember to run the tests every time they push new code. This could allow the deceloper to focus on the code and fixing any bugs that occur in the automated tests. Another benefit of this is that it allows tests to be consistenet between multiple people who are working on the same project. 
+2. No I wouldn't use end to end testing to check to see if a function is returning the correct input. This is becaue E2E testing is used to mimic user behavior and the user would most likely not have acess to the output of a function. Instead I would just write some unit tests to check for correct function output and add them to a Github action that runs whenever the code is pushed.
+3. The main difference between navigation and snapshot mode is that navigation mode will show you the page only in the state its in after it first loads. While snapshot mode will show you the page in its current state. This would be different for the recipe lab page as navigation would show it as blank with only the boxes to fill in. However in snapshot mode you could add a recipe and then snapshot mode would show the website with the newly added recipe instead.
+4. 3 Things to improve the webpage would be to properly resize the images, preconnect to required origins, and serve images in next-gen formats.
 
-
-
-
-
-
+NPM TEST SCREENSHOT IN SCREENSHOTS FOLDER (/Users/graydon/Code/Lab 7/Lab7_Starter/screenshots/npm test.png)
